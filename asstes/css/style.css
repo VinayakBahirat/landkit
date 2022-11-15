@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'inter' sans-serif;
+    src:url('../font/EB_Garamond/static/EBGaramond-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'grotesk' sans-serif;
+    src: url('../font/EB_Garamond/static/EBGaramond-SemiBold.ttf');
+    font-weight: 600;
+    
+}
+@font-face {
+    font-family: 'grotesk' sans-serif;
+    src: url('../font/EB_Garamond/static/EBGaramond-Regular.ttf');
+    font-weight: 400;
+    
+}
+body{
+    font-family: 'grotesk' sans-serif; 
+    font-weight: 400;
+    background-color:#f9fbfd;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (min-width:999px) {
+    
+    .h1-font {
+        font-size:70px ;
+        line-height: 84px;
+        font-weight: 600;
+    }
+}
+.img-text {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.justify-content-spaes- {
+    justify-content: space-around;
+}
+.div-icon {
+    width: 50px;
+}
+.larq-section-img {
+    background-image: url('../image/badminton.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.larq-section-img-one-man {
+    background-image: url('../image/one\ man.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+ 
+        .padding-py {
+            padding-top: 20%;
+            padding-bottom: 15%;
+        }
+
+.margin-top {
+    margin-top: -50px;
+}
+.goby-section-bg-img {
+    background-image: url('../image/baseboll.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trek-section-bg-img {
+    background-image: url('../image/gym.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shoes-section-bg-img {
+    background-image: url('../image/shoes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottled-section-bg-img {
+    background-image: url('../image/bottled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.foter-bg-color {
+    background-color: #1b2a4e;
+}
+.link-font-color {
+    color: #789ab8;
+    font-size: 14px;
+}
+@media screen and (min-width:999px) {
+    .paragraph {
+        font-size: 31px;
+        line-height: 42px;
+        color: #161c2d;
+    }
+}
+@media screen and (min-width:999px) {
+    .wann-work-font {
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: 400;
+        color:#161c2d;
+    }
+}
+@media screen and (min-width:999px) {
+    .top-bottum-spacing {
+        padding-top: 160px 0px;
+        margin: 160px 0px ;
+    }
+}
