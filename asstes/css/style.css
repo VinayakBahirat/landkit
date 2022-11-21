@@ -30,6 +30,17 @@ body{
     line-height: 60px;
     font-weight: 400;
     
+<<<<<<< HEAD
+=======
+}
+@media screen and (min-width:999px) {
+.h1-font {
+        font-size:65px ;
+        line-height: 84px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+>>>>>>> a18e14ad94e7961c249c7ecf46b50729a219c874
 }
 
 .img-text {
@@ -97,11 +108,33 @@ body{
 .link-font-color {
     color: #869aa0;
     font-size: 16px;
+<<<<<<< HEAD
 }
 .list-unstyled .text-decoration-none.link-font-color:hover {
     text-decoration: underline !important;
     color: #869aa0 ;
     
+=======
+}
+.list-unstyled .text-decoration-none.link-font-color:hover {
+    text-decoration: underline !important;
+    color: #869aa0 ;
+    
+}
+.paragraph-phone {
+    font-size: 24px;
+    line-height: 33px;
+    color:#565962;
+    letter-spacing: 0.5px;
+}
+.blue-text {
+    color: #335eea ;
+}
+@media screen and (min-width:999px) {
+    .nav-whith {
+        width: 75%;
+    }
+>>>>>>> a18e14ad94e7961c249c7ecf46b50729a219c874
 }
 .paragraph-phone {
     font-size: 24px;
@@ -144,12 +177,32 @@ body{
 
 
 @media screen and (min-width:999px) {
+    .section-1 {
+        width: 50%;
+    }
+}
+@media screen and (min-width:999px) {
+    .paragraph {
+        font-size: 30px;
+        line-height: 42px;
+        color:#565962;
+        letter-spacing: 0.5px;
+    }
+}
+.wann-work-font-phone {
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: 400;
+    color:#161c2d;
+}
+@media screen and (min-width:999px) {
     .wann-work-font {
         font-size: 46px;
         line-height: 58px;
         font-weight: 400;
         color:#161c2d;
     }
+<<<<<<< HEAD
     .paragraph {
         font-size: 30px;
         line-height: 42px;
@@ -169,3 +222,23 @@ body{
         letter-spacing: 1px;
     }
 }
+=======
+}
+    .top-bottum-spacing {
+        padding-top:140px 0px 150px 0px;
+        margin: 140px 0px 160px 0px;
+    }
+
+.section-margin {
+    margin: 70px 0px; 
+}
+.paragraph-text-color {
+    color: #7788aa;
+}
+.container .navbar-toggler {
+    border: none ;
+}
+.header-link {
+    color: #506690;
+}
+>>>>>>> a18e14ad94e7961c249c7ecf46b50729a219c874
