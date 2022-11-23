@@ -137,7 +137,7 @@ body{
     color: #506690;
 }
 .small-font {
-    font-size: 13px;
+    font-size: 12px;
 }
 .dropdown-menu.show {
     display: flex;
@@ -156,6 +156,7 @@ body{
 }
 .btn.dropdown-toggle.show {
     display: flex;
+
 }
 .navbar-toggler:focus {
     box-shadow: none;
