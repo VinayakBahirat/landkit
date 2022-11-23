@@ -30,17 +30,6 @@ body{
     line-height: 60px;
     font-weight: 400;
     
-<<<<<<< HEAD
-=======
-}
-@media screen and (min-width:999px) {
-.h1-font {
-        font-size:65px ;
-        line-height: 84px;
-        font-weight: 400;
-        letter-spacing: 1px;
-    }
->>>>>>> a18e14ad94e7961c249c7ecf46b50729a219c874
 }
 
 .img-text {
@@ -108,33 +97,11 @@ body{
 .link-font-color {
     color: #869aa0;
     font-size: 16px;
-<<<<<<< HEAD
 }
 .list-unstyled .text-decoration-none.link-font-color:hover {
     text-decoration: underline !important;
     color: #869aa0 ;
     
-=======
-}
-.list-unstyled .text-decoration-none.link-font-color:hover {
-    text-decoration: underline !important;
-    color: #869aa0 ;
-    
-}
-.paragraph-phone {
-    font-size: 24px;
-    line-height: 33px;
-    color:#565962;
-    letter-spacing: 0.5px;
-}
-.blue-text {
-    color: #335eea ;
-}
-@media screen and (min-width:999px) {
-    .nav-whith {
-        width: 75%;
-    }
->>>>>>> a18e14ad94e7961c249c7ecf46b50729a219c874
 }
 .paragraph-phone {
     font-size: 24px;
@@ -172,7 +139,27 @@ body{
 .small-font {
     font-size: 13px;
 }
-
+.dropdown-menu.show {
+    display: flex;
+}
+.nav-img-inside {
+    background-image: url('../image/header-image.jpg');
+    background-position: center;
+    width: 320px;
+    height: 320px;
+}
+.nav-div-inside {
+    width: 320px;
+    height: 320px;
+    background-color: rgba(49, 46, 225, 0.6);
+    color: #fff;
+}
+.btn.dropdown-toggle.show {
+    display: flex;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 /* big-screem */
 
 
@@ -202,7 +189,6 @@ body{
         font-weight: 400;
         color:#161c2d;
     }
-<<<<<<< HEAD
     .paragraph {
         font-size: 30px;
         line-height: 42px;
@@ -222,23 +208,3 @@ body{
         letter-spacing: 1px;
     }
 }
-=======
-}
-    .top-bottum-spacing {
-        padding-top:140px 0px 150px 0px;
-        margin: 140px 0px 160px 0px;
-    }
-
-.section-margin {
-    margin: 70px 0px; 
-}
-.paragraph-text-color {
-    color: #7788aa;
-}
-.container .navbar-toggler {
-    border: none ;
-}
-.header-link {
-    color: #506690;
-}
->>>>>>> a18e14ad94e7961c249c7ecf46b50729a219c874
